@@ -110,26 +110,58 @@ body {
     right: 472px;
 }
 
-.differ {
-    padding: 100px;
-    background-color: #EDF0F6;
+    /* Bussiness_area */
+
+.upper_Bussiness p{
+    padding-left: 20px;
+    margin-bottom:5px;
+    font-size: 12px;
+    color:#3B5998;
+}
+.upper_Bussiness h2{
+    padding-left: 20px;
+    padding-bottom:20px;
 }
 
-.differ hr {
-    width: 90%;
+.Bussiness_area {
+    background-color: #EDF0F6;
+    padding: 50px 40px;
+}
+
+.Bussiness_area hr {
+    width: 80%;
     margin: 0 30px;
     height: 8px;
+    position: relative;
 }
-.differ img{
-    width: 50%;
+.Bussiness_area img{
+    width: 30%;
 }
 
-.differ .pad {
-    padding: 100px;
+.Bussiness_area .pad {
+    padding: 10px 20px 10px 20px;
 }
 .pad p{
-    text-align: justify;
+    text-align:justify;
+    padding: 30px;
+}
+.pad .col h6{
+    font-size: 17px;
+    font-weight:700;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    padding-left: 130px;
+}
+.pad .col{
+    /* padding-bottom: 10px; */
+    margin-bottom: 10px;
+}
 
+.pad .col button{
+    padding:4px 25px;
+    margin-bottom: 25px;
+    border:1.5px solid #3B5998;
+    color: #3B5998;
 }
 
 /* Industrial */
