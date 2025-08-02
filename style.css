@@ -8,7 +8,6 @@ body {
 }
 
 
-
 .head .nav-link:hover {
     text-decoration: underline #3B5998;
 }
@@ -67,14 +66,7 @@ body {
     margin-left: 120px;
 }
 
-/* .back img{
-    width:750px;
-    top:650px;
-    left: 750px;
-    position: absolute;
-} */
-
-.back h5 {
+.back h6 {
     color: #3B5998;
     font-size: 10px;
     font-weight: bolder;
@@ -117,7 +109,10 @@ body {
     margin-bottom:5px;
     font-size: 12px;
     color:#3B5998;
+    font-weight:700;
+    font-style: Nunito, Bold;
 }
+
 .upper_Bussiness h2{
     padding-left: 20px;
     padding-bottom:20px;
@@ -153,8 +148,7 @@ body {
     padding-left: 130px;
 }
 .pad .col{
-    /* padding-bottom: 10px; */
-    margin-bottom: 10px;
+    padding:5px 5px;
 }
 
 .pad .col button{
@@ -163,17 +157,53 @@ body {
     border:1.5px solid #3B5998;
     color: #3B5998;
 }
+.pad .col button:hover{
+    border:1.5px solid gray;
+    background-color: #3B5998;
+    color:white;
+}
 
 /* Industrial */
+
 .Industrial{
+    padding:50px 50px 0px 50px;
+}
+
+.Industrial_container{
     padding: 50px;
 }
-.Ellipse>col{
-    background-color: #3B5998;
-    padding: 20px;
-    border:1px black;
+.Industrial_container p{
+    font-size: 12px;
+    color:#3B5998;
+    font-weight:800;
+}
+.Ellipse>.col{
+    /* padding: 20px; */
+    /* border:2px solid  black; */
+    /* padding: 10px; */
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #0000002B;
+    /* width: 256px;
+    height:200px; */
 
 }
+.Ellipse>.col img{
+    width: 70%;
+}
+
+.Ellipse>.col h6{
+    font-size: 13px;
+   
+}
+/* .hellos{
+    background: transparent url("images/Ellipse 3.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:auto;
+
+    
+} */
 
 .Ellipse img{
     width:100%;
@@ -238,7 +268,7 @@ body {
     font-family: Poppins;
 }
 
-     /*  footerarea  */
+    /*  footerarea  */
 
 .foot_2 {
     background-color: #070707;
