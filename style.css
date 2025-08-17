@@ -163,6 +163,129 @@ body {
     color:white;
 }
 
+   /* professional web devlopment */
+.prof-web{
+    background-color:#3B5998;
+    padding:150px;
+    /* border: 5px solid rgb(160, 25, 25); */
+
+}
+.hy{
+    /* border: 4px solid green; */
+}
+
+.web_content_area h5{
+    color:white;
+    margin-top: 50px;
+    padding:0px 0px;
+    text-align: justify;
+}
+.web_content_area p{
+    color:white;
+    font-size: 15px;
+    text-align: justify;
+    padding: 0px 0px;
+}
+.hy>.col{
+    /* border: 5px solid yellow; */
+}
+.circle{
+    position: relative;
+    /* height: 400px; */
+    /* padding: 40px; */
+}
+
+.circle_1{
+    width: 200px;
+    height:200px;
+    background-color: #80D8FF;
+    padding: 10px;
+}
+.circle_2{
+    width: 220px;
+    height:220px;
+    background-color: #BEC8DD;
+    position:absolute ;
+    left:70px;
+    top:170px;
+}
+.circle_3{
+    width: 170px;
+    height:170px;
+    background-color:#4D9AD4;
+    position:absolute;
+    left: 250px;
+    bottom:0px;
+}
+.circle_4{
+    width: 30px;
+    height:30px;
+    background-color:#FFFFFF;
+    position:absolute;
+    left: 240px;
+    top: 50px;
+}
+.circle_5{
+    width: 30px;
+    height:30px;
+    background-color:#B3F68C;
+    position: absolute;
+    right: 50px;
+    bottom: 150px;
+
+}
+.circle_6{
+    width: 30px;
+    height:30px;
+    background-color:#BEC8DD;
+    position: absolute;
+    left: -50px;
+    /* bottom: 150px; */
+
+}
+.circle_7{
+    width: 25px;
+    height:25px;
+    background-color:#80D8FF;
+    position: absolute;
+    right: 140px;
+    bottom: 160px;
+}
+.circle_8{
+    width: 15px;
+    height:15px;
+    background-color:#FFFFFF;
+}
+
+
+
+.circle>.col{
+    border-radius:50%;
+    /* background-color: #444444; */
+}
+.circle>.col p{
+    /* font-size: 25px; */
+    color: white;
+    /* padding-top: 10px; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Industrial */
 
 .Industrial{
@@ -178,37 +301,24 @@ body {
     font-weight:800;
 }
 .Ellipse>.col{
-    /* padding: 20px; */
-    /* border:2px solid  black; */
-    /* padding: 10px; */
     margin: 5px;
     border-radius: 5px;
     box-shadow: 0px 0px 10px #0000002B;
-    /* width: 256px;
-    height:200px; */
-
 }
+
 .Ellipse>.col img{
     width: 70%;
 }
 
 .Ellipse>.col h6{
     font-size: 13px;
-   
 }
-/* .hellos{
-    background: transparent url("images/Ellipse 3.png");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size:auto;
-
-    
-} */
 
 .Ellipse img{
     width:100%;
     padding: 20px;
 }
+
 .Ellipse_bottom img{
     width:100%;
 }
